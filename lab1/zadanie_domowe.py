@@ -28,7 +28,7 @@ for message in consumer:
 
     # Sprawdzenie progu
     if len(user_events[user_id]) > 3:
-        print(f"ALERT: user {user_id} ma {len(user_events[user_id])} transakcji w 60s")
+        print(f"ALERT: user {user_id} wykonał {len(user_events[user_id])} transakcji w 60s")
                 
     
 
